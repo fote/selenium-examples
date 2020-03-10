@@ -1,0 +1,12 @@
+class_name: AcceptanceTester
+modules:
+   enabled:
+      - WebDriver:
+         url: 'https://duckduckgo.com/'
+         protocol: 'http'
+         host: '127.0.0.1'
+         port: 4444
+         browser: chrome
+         capabilities:
+          browserName: 'chrome'
+          version: '79.0'
